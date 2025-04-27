@@ -31,3 +31,12 @@ A visualização da rede foi gerada utilizando um **diagrama de cordas (chord di
     *   Proteína <-> Carboidrato
     *   Vegetal <-> Condimento
     *   Laticínio <-> Carboidrato (em sobremesas/pães)
+
+---
+
+## Vídeo explicativo
+🎥 [Link para o vídeo no Loom ou YouTube](https://youtu.be/N20GzhttK9o)
+## Referências
+
+- NetworkX documentation: https://networkx.org/
+- Gemini Ai: https://gemini.google.com/
