@@ -31,6 +31,7 @@ A visualização da rede foi gerada utilizando um **diagrama de cordas (chord di
     *   Proteína <-> Carboidrato
     *   Vegetal <-> Condimento
     *   Laticínio <-> Carboidrato (em sobremesas/pães)
+![Diagrama de Assortatividade](images/assortativity.png)
 
 ---
 
