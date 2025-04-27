@@ -17,12 +17,12 @@ Este trabalho repositório contém a implementação do trabalho da disciplina d
 ---
 ## Análise da Rede de Ingredientes
 
-Para a realização da atividade, foi necessário construir um grafo de co-ocorrência a partir de 50 receitas populares da culinária brasileiro usando um modelo de linguagem (Gemini AI) para baseado em uma imagem da receita ser gerado a descrição dos ingredientes do prato e classificá-los nas categorias: Proteína, Carboidrato, Vegetal, Fruta,Laticínio, Gordura, Condimento, Outro. Sendo organizando em um arquivo de extensão .csv da seguinte forma:
+Para a realização da atividade, foi necessário construir um grafo de co-ocorrência a partir de 50 receitas populares da culinária brasileiro, usando um modelo de linguagem (Gemini AI) para baseado em uma imagem da receita ser gerado a descrição dos ingredientes do prato e classificá-los nas categorias: Proteína, Carboidrato, Vegetal, Fruta,Laticínio, Gordura, Condimento, Outro. Sendo organizado em um arquivo de extensão .csv da seguinte forma:
 - nome_receita
 - ingredientes
 - tipo_ingredientes
 
-O grafo foi construido tendo os nós como sendo ingredientes, as arestas, as ligações ente ingredientes que aparecem na mesma receita, e os atributos dos nós, o tipo de ingrediente.
+O grafo foi construido tendo os nós como sendo ingredientes, as arestas, as ligações entre ingredientes que aparecem na mesma receita, e os atributos dos nós, o tipo de ingrediente.
 
 Com o grafo gerado, calculou-se o coeficiente de assortatividade da rede, utilizando a **categoria do ingrediente** como o atributo principal dos nós. E o resultado obtido foi um coeficiente de valor negativo(-0.0556), indicando que o grafo é **disassortativo** (ou heterofílica) em relação à categoria dos ingredientes. Ou seja, os ingredientes tendem a se conectar (aparecer juntos na mesma receita) com ingredientes de categorias *diferentes* com mais frequência do que com ingredientes da *mesma* categoria. Este é um resultado bastante esperado para receitas culinárias devido a se optar por pratos equilibrados em que se busca combinar diferentes tipos de alimentos: uma fonte de proteína (carne, ovos) com um carboidrato (arroz, farinha, mandioca), vegetais para sabor e nutrientes, gorduras para cozimento e sabor, e condimentos para tempero. 
 
@@ -39,7 +39,7 @@ As conexões entre diferentes categorias de ingredientes nas receitas analisadas
 ---
 
 ## Vídeo explicativo
-🎥 [Link para o vídeo no Loom ou YouTube](https://youtu.be/N20GzhttK9o)
+🎥 [Link para o vídeo no Loom](https://www.loom.com/share/0ba0187a430f4a79b246313a7c2c7598?sid=2b2790f1-061d-4ab1-82fa-a6c7ce20ef0a)
 ## Referências
 
 - NetworkX documentation: https://networkx.org/
