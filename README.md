@@ -31,6 +31,8 @@ A visualização da rede foi gerada utilizando um **diagrama de cordas (chord di
 - Proteína <-> Carboidrato
 - Vegetal <-> Condimento
 - Laticínio <-> Carboidrato (em sobremesas/pães)
+
+As conexões entre diferentes categorias de ingredientes nas receitas analisadas podem ser observadas no diagrama abaixo.
   
 ![Diagrama de Assortatividade](images/assortativity.png)
 
