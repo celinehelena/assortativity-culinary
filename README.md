@@ -24,13 +24,14 @@ Para a realização da atividade, foi necessário construir um grafo de co-ocorr
 
 O grafo foi construido tendo os nós como sendo ingredientes, as arestas, as ligações ente ingredientes que aparecem na mesma receita, e os atributos dos nós, o tipo de ingrediente.
 
-Com o grafo gerado, calculou-se o coeficiente de assortatividade da rede, utilizando a **categoria do ingrediente** como o atributo principal dos nós. E o resultado obtido foi um coeficiente de valor negativo(-0.0556),indicando que o grafo é **disassortativo** (ou heterofílica) em relação à categoria dos ingredientes. Ou seja, os ingredientes tendem a se conectar (aparecer juntos na mesma receita) com ingredientes de categorias *diferentes* com mais frequência do que com ingredientes da *mesma* categoria. Este é um resultado bastante esperado para receitas culinárias devido a se optar por pratos equilibrados em que se busca combinar diferentes tipos de alimentos: uma fonte de proteína (carne, ovos) com um carboidrato (arroz, farinha, mandioca), vegetais para sabor e nutrientes, gorduras para cozimento e sabor, e condimentos para tempero. 
+Com o grafo gerado, calculou-se o coeficiente de assortatividade da rede, utilizando a **categoria do ingrediente** como o atributo principal dos nós. E o resultado obtido foi um coeficiente de valor negativo(-0.0556), indicando que o grafo é **disassortativo** (ou heterofílica) em relação à categoria dos ingredientes. Ou seja, os ingredientes tendem a se conectar (aparecer juntos na mesma receita) com ingredientes de categorias *diferentes* com mais frequência do que com ingredientes da *mesma* categoria. Este é um resultado bastante esperado para receitas culinárias devido a se optar por pratos equilibrados em que se busca combinar diferentes tipos de alimentos: uma fonte de proteína (carne, ovos) com um carboidrato (arroz, farinha, mandioca), vegetais para sabor e nutrientes, gorduras para cozimento e sabor, e condimentos para tempero. 
 
 A visualização da rede foi gerada utilizando um **diagrama de cordas (chord diagram)**, onde observa-se uma densa rede de conexões (cordas) ligando **arcos de cores diferentes** e a estrutura é dominada pelas interações *entre* os diferentes grupos, conforme mostra a imagem. Por exemplo, é perceptível fortes conexões entre:
-    *   Proteína <-> Vegetal
-    *   Proteína <-> Carboidrato
-    *   Vegetal <-> Condimento
-    *   Laticínio <-> Carboidrato (em sobremesas/pães)
+- Proteína <-> Vegetal
+- Proteína <-> Carboidrato
+- Vegetal <-> Condimento
+- Laticínio <-> Carboidrato (em sobremesas/pães)
+  
 ![Diagrama de Assortatividade](images/assortativity.png)
 
 ---
